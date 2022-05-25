@@ -15,6 +15,7 @@ public class Student
     private String name ;
     private int age;
     private int semester;
+    private boolean partTime;
 
     /**
      * @return the name

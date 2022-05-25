@@ -7,7 +7,7 @@ package studentdetailsprint;
 
 /**
  * data - template - student -entity - > =
- * @author srinivsi ,test ,hello,br
+ * @author srinivsi ,test ,hello,br,tt
  */
 public class Student 
 {

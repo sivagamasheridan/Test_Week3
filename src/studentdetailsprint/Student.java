@@ -14,6 +14,7 @@ public class Student
     //Encapsulation , private variable,
     private String name ;
     private int age;
+    private int semester;
 
     /**
      * @return the name

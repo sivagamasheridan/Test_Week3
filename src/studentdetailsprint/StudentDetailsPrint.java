@@ -33,6 +33,7 @@ public class StudentDetailsPrint {
        {
          System.out.println(list[i].getName() + " "+list[i].getAge());
          System.out.println("Learn Github operatiions");
+        //commit and save
        }
        
     }

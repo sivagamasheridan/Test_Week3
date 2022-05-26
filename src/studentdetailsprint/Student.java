@@ -15,7 +15,7 @@ public class Student
     private String name ;
     private int age;
     private int semester;
-  
+   private boolean parttime;
 
     /**
      * @return the name
@@ -43,5 +43,19 @@ public class Student
      */
     public void setAge(int age) {
         this.age = age;
+    }
+
+    /**
+     * @return the parttime
+     */
+    public boolean isParttime() {
+        return parttime;
+    }
+
+    /**
+     * @param parttime the parttime to set
+     */
+    public void setParttime(boolean parttime) {
+        this.parttime = parttime;
     }
 }

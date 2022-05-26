@@ -16,7 +16,7 @@ public class StudentDetailsPrint {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Student[] list = new Student[3]; //array of student object 
+       Student[] list = new Student[3]; //array of student object 
        Student s1 = new Student();
        s1.setName("john");
        s1.setAge(19);
@@ -31,8 +31,8 @@ public class StudentDetailsPrint {
        list[2]=s3;
        for(int i=0;i<list.length;i++)
        {
-           System.out.println(list[i].getName() + " "+list[i].getAge());
-           System.out.println("Pull operation");
+         System.out.println(list[i].getName() + " "+list[i].getAge());
+         System.out.println("Learn Github operatiions");
        }
        
     }
